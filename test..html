@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
     <style>
-        a[target="_blank"] {
-  background-color: yellow;
-}
+        body{
+            font-size: 3rem;
+        }
+        *{
+            border: 1px black solid;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 100px 2fr 1fr 100px;
+            grid-template-rows: repeat(auto-fill);
+            gap: 10px 20px;
+        }
+
+
 </style>
 
 </head>
 <body>
-    <a href="#">超連結</a>
-    <a href="#" target="_blank">超連結</a>
-    <a href="#" target="_top">超連結</a>
+<div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+</div>
 </body>
 </html>
